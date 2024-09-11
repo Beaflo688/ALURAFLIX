@@ -1,0 +1,46 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0F7FA; /* Cor de fundo suave */
+}
+
+header {
+    background-color: #00796B; /* Cor do tema tropical */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.chamada {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chamada-texto {
+    flex: 1;
+    color: #00796B;
+}
+
+.categoria {
+    padding: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.categoria-videos a {
+    display: block;
+    width: 200px;
+}
+
+.categoria-videos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas para um estilo mais moderno */
+}
